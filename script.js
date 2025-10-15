@@ -1,10 +1,12 @@
 console.log("Hello World!");
 // 1. Create an array called favoriteFoods with at least 6 foods you love.
-
+let favoriteFoods = ['pizza', 'bread', 'shrimp', 'tacos', 'chicken', 'noodles']
 
 
 // 2. Loop through the list and print: "One of my favorite foods is ______."
-
+for (let i = 0; i < favoriteFoods.length; i++) {
+  console.log('One of my favorite foods is ' + favoriteFoods[i])
+}
 
 
 
@@ -14,7 +16,12 @@ console.log("Hello World!");
 // "My #2 favorite food is Sushi"
 // ...etc.
 
-
+console.log('My #1 favorite food is tacos')
+console.log('My #2 favorite food is noodles')
+console.log('My #3 favorite food is shrimp')
+console.log('My #4 favorite food is chicken')
+console.log('My #5 favorite food is pizza')
+console.log('My #6 favorite food is bread')
 
 
 
