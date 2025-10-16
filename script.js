@@ -103,7 +103,18 @@ console.log('Long names: ' + longFoodNames);
 console.log('Short names: ' + shortFoodNames);
 console.log('Number of long names: ' + longFoodNames.length);
 console.log('Number of short names: ' + shortFoodNames.length);
-console.log('There are more long names than short names')
+console.log('There are more long names than short names');
 
 // 10. STRETCH: Find the longest food name and print:
 // "The longest food name in the list is ______ with ___ characters."
+console.log('10. Find the longest food name:');
+
+
+let maxName = friendFavorites[0];
+for (let i = 0; i < friendFavorites.length; i++) {
+  if (friendFavorites[i].length > maxName.length) {
+    maxName = friendFavorites[i];
+  }
+}
+
+console.log(`The longest food name in the list is ${maxName} with ${maxName.length} characters`);
